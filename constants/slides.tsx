@@ -3,9 +3,11 @@
 import { Box, PlusIcon, Hospital, School, Banknote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cardItems } from "@/constants/card-items";
-import DusiCodeDetails from "@/components/DusiCodeDetails";
-import { WeBuild } from "@/components/WeBuild";
-import { WhyDusicode } from "@/components/WhyDusicode";
+
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { Button } from "@/components/ui/button";
 
 
 
@@ -211,34 +213,7 @@ export default function Home() {
     </div>
 
     <div className="grid grid-cols-2 items-center justify-center">
-      {/*
-      {cardItems.map((item) => (
-        <div key={item.key} className="bg-taupe-800 rounded-2xl h-[300px] w-80 text-white flex flex-col items-center items-start justify-center gap-4 px-8">
-          <div className="flex items-center justify-center gap-4">
-            <span className="bg-orange-600 text-lg font-bold p-2 rounded-lg">
-              <item.icon />
-            </span>
-
-            <div className="flex flex-col items-start items-center justify-center">
-              <span className="text-lg text-bold text-white-400">
-                {item.title}
-              </span>
-              <span className="text-sm text-gray-400">
-                {item.description}
-              </span>
-            </div>
-            
-          </div>
-        </div>
-      ))}
-    */}
+      
 
     </div>
    </div>
-
-   <DusiCodeDetails />
-   <WeBuild />
-   <WhyDusicode />
-   </>
-  );
-}
