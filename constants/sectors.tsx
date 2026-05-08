@@ -3,7 +3,7 @@ import { GraduationCap, HospitalIcon, Banknote, Briefcase, HandshakeIcon, ArrowR
 export const sectors = [
   {
    key: 1,
-   icon: <span className="bg-gradient-to-r from-orange-100 to-red-100 text-orange-600 rounded-md w-8 h-8 p-6"><GraduationCap /></span>,
+   icon: <span className="bg-orange-100 text-orange-600 rounded-md"><GraduationCap /></span>,
    name: "Education",
    title: "School Management System",
    description: "A complete digital platform to manage students, staff, academics, fees, and communication for schools of any size.",
@@ -11,7 +11,7 @@ export const sectors = [
   },
   {
    key: 2,
-   icon: <span className="bg-gradient-to-r from-orange-100 to-red-100 text-orange-600 rounded-md w-8 h-8 p-6"><HospitalIcon /></span>,
+   icon: <span className="bg-orange-100 text-orange-600 rounded-md"><HospitalIcon /></span>,
    name: "Healthcare",
    title: "Hospital & Clinic Management System",
    description: "A comprehensive solution for managing patient records, appointments, billing, and communication in healthcare facilities.",
@@ -19,7 +19,7 @@ export const sectors = [
   },
   {
    key: 3,
-   icon: <span className="bg-gradient-to-r from-orange-100 to-red-100 text-orange-600 rounded-md w-8 h-8 p-6"><Banknote /></span>,
+   icon: <span className="bg-orange-100 text-orange-600 rounded-md"><Banknote /></span>,
    name: "Finance",
    title: "Core Banking System",
    description: "A robust platform for managing banking operations, customer accounts, and transactions securely and efficiently.",
@@ -27,7 +27,7 @@ export const sectors = [
   },
   {
    key: 4,
-   icon: <span className="bg-gradient-to-r from-orange-100 to-red-100 text-orange-600 rounded-md w-8 h-8 p-6"><Briefcase /></span>,
+   icon: <span className="bg-orange-100 text-orange-600 rounded-md"><Briefcase /></span>,
    name: "Business",
    title: "Enterprise Resource Planning (ERP)",
    description: "An integrated suite of applications to manage core business processes, including finance, HR, and supply chain.",
@@ -35,7 +35,7 @@ export const sectors = [
   },
   {
    key: 5,
-   icon: <span className="bg-gradient-to-r from-orange-100 to-red-100 text-orange-600 rounded-md w-8 h-8 p-6"><HandshakeIcon /></span>,
+   icon: <span className="bg-orange-100 text-orange-600 rounded-md"><HandshakeIcon /></span>,
    name: "NGO",
    title: "NGO Project Tracking System",
    description: "Track donor funds, projects, beneficiaries, and impact reporting for NGOs and humanitarian organizations.",
@@ -43,7 +43,7 @@ export const sectors = [
   },
   {
    key: 6,
-   icon: <span className="bg-gradient-to-r from-orange-100 to-red-100 text-orange-600 rounded-md w-8 h-8 p-6"><Briefcase /></span>,
+   icon: <span><Briefcase /></span>,
    name: "Business",
    title: "Enterprise Resource Planning (ERP)",
    description: "An integrated suite of applications to manage core business processes, including finance, HR, and supply chain.",

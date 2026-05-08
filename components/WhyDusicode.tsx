@@ -22,14 +22,15 @@ export const WhyDusicode = () => {
 
       <div className="grid grid-cols-2">
         {reasons.map((reason, index) => (
-          <div key={index} className="flex flex-col items-center justify-center gap-4 p-6">
-            <span className="text-4xl">{reason.icon}</span>
-            <h2 className="text-xl font-bold">{reason.title}</h2>
-            <p className="text-md text-gray-600">{reason.description}</p>
+          <div key={index} className="grid grid-cols-2 items-center justify-center gap-4 p-6">
+              <span className="text-4xl">{reason.icon}</span>
+              <span className="flex flex-col items-start justify-center gap-2 text-center">
+                <h2 className="text-xl font-bold">{reason.title}</h2>
+                <p className="text-md text-gray-600">{reason.description}</p>
+              </span>
           </div>
         ))}
       </div>
-
     </div>
   );
 };

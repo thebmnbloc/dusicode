@@ -1,8 +1,8 @@
 export const reasons = [
   { 
     icon: "💻",
-    title: "Expertise",
-    description: "Our team consists of industry experts with years of experience in software development.",
+    title: "Fully Registered",
+    description: "Officially registered in South Sudan with full legal compliance.",
   },
   {
     icon: "🚀",

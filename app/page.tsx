@@ -6,6 +6,10 @@ import { cardItems } from "@/constants/card-items";
 import DusiCodeDetails from "@/components/DusiCodeDetails";
 import { WeBuild } from "@/components/WeBuild";
 import { WhyDusicode } from "@/components/WhyDusicode";
+import { OurServices } from "@/components/OurServices";
+import { OurClients } from "@/components/OurClients";
+import { GetStarted } from "@/components/GetStarted";
+import { OurTestimonials } from "@/components/OurTestimonials";
 
 
 
@@ -239,6 +243,10 @@ export default function Home() {
    <DusiCodeDetails />
    <WeBuild />
    <WhyDusicode />
+   <OurServices />
+   <OurClients />
+   <OurTestimonials />
+   <GetStarted />
    </>
   );
 }
